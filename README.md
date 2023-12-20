@@ -18,7 +18,12 @@ Set the following environment variables before calling the scripts:
 
 ## Implementation Details
 
-The demo setup consists of multiple steps
+The demo setup consists of:
+- ensuring that a Serenity build exists for the required architecture
+- installing ports for the architecture
+- copying the patched sync-local.sh
+
+All the setup of files, links etc. happens in the normal sync-local.sh during image build time.
 
 ## Known package requirements
 

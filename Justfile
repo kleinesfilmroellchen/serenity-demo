@@ -40,7 +40,7 @@ _install-ports:
 		'gcc'
 		# 'halflife' # TODO: Half-Life is currently broken, re-add it when it works again.
 		'python3'
-		# 'SuperTuxKart'
+		'SuperTuxKart' # Fails with a weird linker error on second package.sh call. 
 		'serenity-theming'
 	)
 	for i in "${PORTS_LIST[@]}"; do
