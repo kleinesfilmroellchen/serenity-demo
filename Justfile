@@ -20,7 +20,7 @@ browser:
 	#!/usr/bin/env bash
 	set -euxo pipefail
 	cd "${SERENITY_SOURCE_DIR}"
-	Meta/serenity.sh run lagom ladybird https://emoji.serenityos.net/wall-of-awesome https://fonts.serenityos.net/wall-of-awesome https://events.ccc.de/congress/2023/infos/startpage.html
+	Meta/serenity.sh run lagom ladybird 'https://emoji.serenityos.net/wall-of-awesome?rows=4&cols=9&timer=30' 'https://fonts.serenityos.net/wall-of-awesome?timer=20' https://events.ccc.de/congress/2023/infos/startpage.html
 
 # Ensures that we have a build directory and LibC for the port builds.
 _build-serenity:

@@ -157,6 +157,7 @@ ln -sf /bin/Calculator mnt/home/anon/Desktop
 ln -sf /bin/Magnifier mnt/home/anon/Desktop
 ln -sf /bin/SpaceAnalyzer mnt/home/anon/Desktop
 ln -sf /bin/SystemMonitor mnt/home/anon/Desktop
+ln -sf /res/graphics/brand-banner-2x.png mnt/home/anon/Desktop
 
 ln -sf ../Videos/test-webm.webm mnt/home/anon/Desktop
 ln -sf '../Documents/3D Models/teapot.obj' mnt/home/anon/Desktop
