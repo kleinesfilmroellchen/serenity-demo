@@ -29,4 +29,4 @@ All the setup of files, links etc. happens in the normal sync-local.sh during im
 
 (Please extend this list for your distro!)
 
-- Arch Linux: `gperf qt6 perl-rename` (as of writing, Python 3.12 is not available through official repositories, use the AUR or Toolchain/BuildPython.sh)
+- Arch Linux: `gperf qt6 perl-rename imagemagick` (as of writing, Python 3.12 is not available through official repositories, use the AUR or Toolchain/BuildPython.sh)
